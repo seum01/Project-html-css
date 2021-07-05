@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background: url(../bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-header{
+    background: #95bc07;
+    padding: 50px 50px;
+    border-radius: 20px 20px 0 0;
+}
+.pic{
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(130deg, green, red, blue, yellow);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+.pic img{
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.name{
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    font-family: cursive;
+    
+}
+.desc{
+    font-size: 18px;
+    color: darkblue;
+    text-align: center;
+    font-family: cursive;
+}
+.sm{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.sm a{
+    color: black;
+    width: 40px;
+    font-size: 22px;
+    transition: .3s linear;
+}
+.sm a:hover{
+    color: red;
+}
+.contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: darkblue;
+    border: 2px dotted darkblue;
+    border-radius: 100px;
+    margin-top: 18px;
+    font-family: cursive;
+    transition: .3s linear; 
+}
+.contact-btn:hover{
+    background: gray;
+    color: aliceblue;
+}
+.card-footer{
+    background: white;
+    border-radius: 0 0 20px 20px;
+    padding: 50px 10px;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    
+}
+.items{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: darkblue;
+}
+.items span{
+    display: block;
+    color: black;
+    font-size: 20px;
+}[]

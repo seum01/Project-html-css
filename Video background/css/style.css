@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+}
+.vid-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+.nav-area{
+    background: rgba(0,0,0,0.7);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: #dd444e;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-style: oblique
+}
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    
+}
+.menu-area li a:hover{
+    color: blue;
+    background: white;
+    transition: .4s linear;
+    
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner-text h2{
+    color: #f2f2f2;
+    font-size: 55px;
+    margin: 0;
+}
+.banner-text p{
+    color: #f2f2f2;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
+.btn:hover{
+    color: black;
+    background: white;
+    transition: .4s linear;
+}

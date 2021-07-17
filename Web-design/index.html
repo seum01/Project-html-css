@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Web-design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+       <section class="header">
+       <nav>
+          <img src="bg-pattern.png" alt="">
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html" class="big">Files Examples</a></li>
+                   <li><a href="https://file-examples.com/index.php/sample-video-files/">SAMPLE VIDEOS</a></li>
+                   <li><a href="https://file-examples.com/index.php/sample-audio-files/">SAMPLE AUDIO FILES</a></li>
+                   <li><a href="https://file-examples.com/index.php/sample-documents-download/">SAMPLE DOCUMENTS</a></li>
+                   <li><a href="https://file-examples.com/index.php/sample-images-download/">SAMPLE IMAGES</a></li>
+                   <li><a href="https://file-examples.com/index.php/text-files-and-archives-download/">OTHER FILES</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+           <h1>file-examples.com is a service <br>designed for developers,<br> designers, testers. Download <br>files in many resolution or size <br>for test or demo use.</h1>
+       <a href="" class="hero-btn">BROWSE FILES!</a>
+       </div>
+       
+   </section>
+   
+<!-- section2 -->
+  <div class="sec-2">
+      <h1>Most popular file formats</h1>
+     <p>If we miss any, let us know! ;-)</p>
+  </div>
+  
+<!-- section3 -->
+  <div class="sec-3">
+      <h1>
+        Sample Files Download  
+      </h1>
+      <p>If you need example / dummy files for testing or demo and presentation purpose, this is a great place for you. <br>
+
+The files might be useful for testing upload, HTML5 videos etc. All files are free to download and use. <br>
+
+We care for our content. All files are safe from viruses and adults-only content.</p>
+  </div>
+<!-- section4 -->
+<section class="sec-4">
+      
+      <div class="row">
+          <div class="sec4-col">
+             <i class="fab fa-youtube"></i>
+              <h3>Video files</h3>
+              <p>A great collection of video files for testing and demo use. Choose file format and size to free download.</p>
+          </div>
+          <div class="sec4-col">
+              <i class="fa fa-volume-up"></i>
+              <h3>Audio files</h3>
+              <p>Do you need mp3, wav or other audio format for testing? Download free files by size and format.</p>
+          </div>
+          <div class="sec4-col">
+             <i class="fa fa-file"></i>
+              <h3>Documents</h3>
+              <p>A set of document files: doc, docx, odt, pdf, xls, ppt, pps and more. Download them for free.</p>
+          </div>
+          <div class="sec4-col">
+             <i class="fa fa-camera"></i>
+              <h3>Images</h3>
+              <p>A stock of images for testing. Many sizes and formats (eg. jpg, png, gif) for free download.</p>
+          </div>
+          <div class="sec4-col">
+             <i class="fa fa-database"></i>
+              <h3>Other files</h3>
+              <p>A miscellany of text and archives files. Download files as html, csc, css, zip, bzip2 and more.</p>
+          </div>
+      </div>
+      
+  </section>
+  
+<!-- footer -->
+  <section class="footer">
+      <h4>
+© 2019-2021 file-examples.com | All Rights Reserved.
+ <br>
+     <a href="www.gmail.com" class="link">hello@file-examples.com</a>
+     <br>
+     <a href="https://file-examples.com/index.php/sample-video-files/" class="link">Sample videos</a>
+     <a href="https://file-examples.com/index.php/sample-audio-files/" class="link">Sample audio files</a>
+     <a href="https://file-examples.com/index.php/sample-documents-download/" class="link">Sample documents</a>
+     <a href="https://file-examples.com/index.php/sample-images-download/" class="link">Sample images</a>
+     <a href="https://file-examples.com/index.php/text-files-and-archives-download/" class="link">Other files</a>
+ 
+  
+ </h4>
+      
+  </section>
+   
+  
+   
+<!--------JavaScript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
